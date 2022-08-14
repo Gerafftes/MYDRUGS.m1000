@@ -90,9 +90,9 @@ nav ul li a{
 a {
     color: white;
 }
-body {
-    font-family: 'Open Sans', sans-serif;
-    background: #111;
-    color: white;
-    height: 150vh;
+
+sho-mitte {
+  padding-left: 100px;
+  padding-right: 100px;
 }
+
