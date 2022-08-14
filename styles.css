@@ -10,7 +10,7 @@ body{
   background-color: rgb(14,14,14);
 }
 nav{
-  min-height: 40px;
+  min-height: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
