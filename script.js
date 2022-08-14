@@ -27,7 +27,7 @@ const products = [
     colors: [
       {
         code: "lightgray",
-        img: "Bilder/unnamed3.png/",
+        img: "Bilder/unnamed3.png",
       },
     ],
   },
