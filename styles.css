@@ -381,7 +381,7 @@ label {
   color: white;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 2px 2px 4px #ff0000;
+  box-shadow: 2px 2px 4px gray;
   border-radius: 7px;
 }
 
