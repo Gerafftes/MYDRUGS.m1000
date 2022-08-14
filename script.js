@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     title: "Green Snowflake",
-    price: 119,
+    price: 0.0045 / 0.1667,
     colors: [
       {
         code: "black",
@@ -23,18 +23,18 @@ const products = [
   {
     id: 2,
     title: "Purple Flower",
-    price: 149,
+    price: 0.0021 / 0.0802 ,
     colors: [
       {
         code: "lightgray",
-        img: "Bilder/unnamed3.png",
+        img: "Bilder/unnamed3.png/",
       },
     ],
   },
   {
     id: 3,
     title: "Red Pill",
-    price: 109,
+    price: 0.0013 / 0.0523,
     colors: [
       {
         code: "lightgray",
@@ -45,7 +45,7 @@ const products = [
   {
     id: 4,
     title: "Blue Clover",
-    price: 129,
+    price: 0.0029 / 0.114,
     colors: [
       {
         code: "black",
@@ -73,7 +73,7 @@ menuItems.forEach((item, index) => {
 
     //change texts of currentProduct
     currentProductTitle.textContent = choosenProduct.title;
-    currentProductPrice.textContent = "$" + choosenProduct.price;
+    currentProductPrice.textContent = "BTC / ETH" + choosenProduct.price;
     currentProductImg.src = choosenProduct.colors[0].img;
 
     //assing new colors
