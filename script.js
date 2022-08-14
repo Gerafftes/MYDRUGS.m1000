@@ -18,14 +18,6 @@ const products = [
         code: "BTC",
         img: "./img/air.png",
       },
-      {
-        code: "ETH",
-        img: "./img/air2.png",
-      },
-      {
-        code: "black",
-        img: "Bilder/unnamed.png",
-      },
     ],
   },
   {
