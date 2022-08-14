@@ -14,6 +14,14 @@ const products = [
     title: "Green Snowflake",
     price: 0.0045 / 0.1667,
     colors: [
+         {
+        code: "BTC",
+        img: "./img/air.png",
+      },
+      {
+        code: "ETH",
+        img: "./img/air2.png",
+      },
       {
         code: "black",
         img: "Bilder/unnamed.png",
