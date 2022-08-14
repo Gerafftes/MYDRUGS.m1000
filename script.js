@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     title: "Green Snowflake",
-    price: 0.0045 / 0.1667,
+    price: 0.0045,
     colors: [
       {
         code: "black",
@@ -73,7 +73,7 @@ menuItems.forEach((item, index) => {
 
     //change texts of currentProduct
     currentProductTitle.textContent = choosenProduct.title;
-    currentProductPrice.textContent = "BTC / ETH" + choosenProduct.price;
+    currentProductPrice.textContent = "BTC" + choosenProduct.price;
     currentProductImg.src = choosenProduct.colors[0].img;
 
     //assing new colors
