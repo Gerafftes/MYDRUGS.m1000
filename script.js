@@ -12,29 +12,29 @@ const products = [
   {
     id: 1,
     title: "Green Snowflake",
-    price: 0.0045 / 0.1667,
+    price: 0.0045,
     colors: [
          {
         code: "BTC",
-        img: "./img/air.png",
+        img: "Bilder/unnamed.png",
       },
     ],
   },
   {
     id: 2,
     title: "Purple Flower",
-    price: 0.0021 / 0.0802 ,
+    price: 0.0021,
     colors: [
       {
         code: "lightgray",
-        img: "Bilder/unnamed3.png/",
+        img: "Bilder/unnamed3.png",
       },
     ],
   },
   {
     id: 3,
     title: "Red Pill",
-    price: 0.0013 / 0.0523,
+    price: 0.0013,
     colors: [
       {
         code: "lightgray",
@@ -45,7 +45,7 @@ const products = [
   {
     id: 4,
     title: "Blue Clover",
-    price: 0.0029 / 0.114,
+    price: 0.0029,
     colors: [
       {
         code: "black",
