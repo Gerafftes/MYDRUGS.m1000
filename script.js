@@ -12,7 +12,7 @@ const products = [
   {
     id: 1,
     title: "Green Snowflake",
-    price: 0.0045,
+    price: 0.0045 / 0.1667,
     colors: [
       {
         code: "black",
